@@ -27,7 +27,7 @@ function viewCart() {
   else if(len === 1){
     output = "In your cart, you have ";
   }
-  else{
+  else{ //need to take care of oxford comma
     
   }
 }

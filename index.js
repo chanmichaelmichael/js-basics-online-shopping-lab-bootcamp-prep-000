@@ -37,6 +37,7 @@ function viewCart() {
     }
     output = output.concat("and ", cart[len - 1].itemName, " at $", cart[len - 1].itemPrice, ". ")
   }
+  return output
 }
 
 function total() {

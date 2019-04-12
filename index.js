@@ -51,11 +51,11 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  var found = false;
+  //var found = false;
   var cart2;
   for(let i = 0; i < cart.length; i++){
     if(cart[i].itemName === item){
-      cart2 = cart.splice(0,i)
+      cart2 = [cart.splice(0,i),cart.splice(i,cart.length)]
       return cart2
     }
   }

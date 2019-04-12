@@ -30,7 +30,7 @@ function viewCart() {
   }
   else{ //need to take care of oxford comma
     var remaining = len; //number of items remaining
-    while(){
+    while(remaining > 1){
       
     }
   }

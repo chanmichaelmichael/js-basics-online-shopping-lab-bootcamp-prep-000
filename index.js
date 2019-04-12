@@ -27,6 +27,9 @@ function viewCart() {
   else if(len === 1){
     output = "In your cart, you have ";
   }
+  else{
+    
+  }
 }
 
 function total() {

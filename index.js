@@ -36,7 +36,7 @@ function viewCart() {
     //while(remaining > 1){
       output = output.concat(cart[i].itemName, " at $", cart[i].itemPrice, ", ")
     }
-    output = output.concat("and ", cart[index].itemName, " at $", cart[index].itemPrice, ". ")
+    output = output.concat("and ", cart[len - 1].itemName, " at $", cart[len - 1].itemPrice, ". ")
   }
 }
 

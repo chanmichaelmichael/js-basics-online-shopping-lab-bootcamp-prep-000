@@ -20,12 +20,13 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   var output = "";
+  var len = cart.length;
   if(cart.length === 0){
     output = "Your shopping cart is empty."
   }
   else{
     output = "In your cart, you have ";
-    
+    for(let i)
   }
 }
 

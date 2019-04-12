@@ -67,11 +67,10 @@ function placeOrder(cardNumber) {
   var output;
   if(cardNumber){
     var output = "Your total cost is $"
-    output = output.concat(cart.total(), ", which will be charged to the card ", cardNumber, ".")
-    return output
+    output = output.concat(cart.total(), ", which will be charged to the card ", cardNumber, ".");
   }
   else{
     output = "Sorry, we don't have a credit card on file for you."
-    return output;
   }
+  return output; 
 }

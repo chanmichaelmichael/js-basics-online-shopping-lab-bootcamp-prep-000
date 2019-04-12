@@ -32,6 +32,7 @@ function viewCart() {
     var remaining = len; //number of items remaining
     while(remaining > 1){
       
+      remaining--;
     }
   }
 }

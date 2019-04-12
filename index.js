@@ -36,6 +36,7 @@ function viewCart() {
       output = output.concat(cart[index].itemName, " at $", cart[index].itemPrice, ", ")
       remaining--;
     }
+    output = output.concat("and", cart[index].itemName, " at $", cart[index].itemPrice, ". ")
   }
 }
 

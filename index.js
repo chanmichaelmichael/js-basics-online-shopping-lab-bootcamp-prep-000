@@ -32,7 +32,8 @@ function viewCart() {
     var remaining = len; //number of items remaining
     var index = 0;
     output = "In your cart, you have ";
-    while(remaining > 1){
+    for(let i = 0; i < len - 1; i++){
+    //while(remaining > 1){
       output = output.concat(cart[index].itemName, " at $", cart[index].itemPrice, ", ")
       remaining--;
       index++;

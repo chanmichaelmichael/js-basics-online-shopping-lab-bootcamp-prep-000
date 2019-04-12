@@ -21,12 +21,11 @@ function viewCart() {
   // write your code here
   var output = "";
   var len = cart.length;
-  if(cart.length === 0){
+  if(len === 0){
     output = "Your shopping cart is empty."
   }
-  else{
+  else if(len === 1){
     output = "In your cart, you have ";
-    for(let i)
   }
 }
 

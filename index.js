@@ -24,7 +24,7 @@ function viewCart() {
     output = "Your shopping cart is empty."
   }
   else{
-    
+    output = "In your cart, you have "
   }
 }
 

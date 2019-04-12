@@ -28,7 +28,7 @@ function viewCart() {
     output = "In your cart, you have ";
   }
   else{ //need to take care of oxford comma
-    var remaining = len; //remaining items
+    var remaining = len; //number of items remaining
     while(){
       
     }

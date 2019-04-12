@@ -12,6 +12,7 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  cart = cart.
+ return `${item} has been added to your cart.`
 }
 
 function viewCart() {

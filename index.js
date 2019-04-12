@@ -33,7 +33,7 @@ function viewCart() {
     var index = 0;
     output = "In your cart, you have ";
     while(remaining > 1){
-      output = output.concat(cart[0].itemName, " at $", cart[0].itemPrice, ".")
+      output = output.concat(cart[index].itemName, " at $", cart[index].itemPrice, ".")
       remaining--;
     }
   }

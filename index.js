@@ -26,6 +26,7 @@ function viewCart() {
   }
   else if(len === 1){
     output = "In your cart, you have ";
+    output = output.concat(cart[0].itemName, " at $", cart[0].itemPrice, ".")
   }
   else{ //need to take care of oxford comma
     var remaining = len; //number of items remaining

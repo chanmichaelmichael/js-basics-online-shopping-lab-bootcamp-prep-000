@@ -70,7 +70,7 @@ function placeOrder(cardNumber) {
     output = output.concat(cart.total(), ", which will be charged to the card ", cardNumber, ".");
   }
   else{
-    output = "Sorry, we don't have a credit card on file for you."
+    output = "Sorry, we don't have a credit card on file for you.";
   }
   return output; 
 }
